@@ -14,3 +14,20 @@ list_of_people = [
   { :name => "Carl", :age => 9 },
 ]
 
+list_of_people.each do |hash|
+  
+  people_age = hash.fetch(:age)
+
+  # p people_age = list_of_people.keys
+
+  if people_age >= 16
+    
+    p people = hash.fetch(:name)
+
+  end
+
+end
+
+
+
+
